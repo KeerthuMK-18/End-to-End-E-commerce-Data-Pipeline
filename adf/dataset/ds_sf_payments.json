@@ -1,0 +1,17 @@
+{
+	"name": "ds_sf_payments",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "RAW",
+			"table": "PAYMENTS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

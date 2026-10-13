@@ -1,0 +1,15 @@
+{
+	"name": "adf-ecommerce-snow-project",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ecaf0fe1-f0b4-41f0-977a-149a5a5f200d",
+		"tenantId": "dec2c2f1-e4be-46d0-8f23-30e107324eb0"
+	}
+}
